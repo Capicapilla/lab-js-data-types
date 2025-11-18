@@ -31,7 +31,7 @@ let upperCasePart2 = part2.slice(0, -1) + part2.slice(-1).toUpperCase();
 
 console.log(upperCasePart1 + " " + upperCasePart2)
 
-let phraseComplete = upperCasePart1 + " " + upperCasePart2;
+let phraseComplete = upperCasePart1 + upperCasePart2;
 
 
 // Print the cameLtaiL-formatted string
@@ -60,7 +60,7 @@ console.log(calculatedTotalPercent);
 
 // Generate a random integer between 1 and 10 (inclusive)
 
-let randomNumber = Math.floor(Math.random() * 11);
+let randomNumber = Math.floor(Math.random() * 10) + 1;
 
 // Print the generated random number
 
