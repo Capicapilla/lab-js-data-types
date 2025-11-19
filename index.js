@@ -10,10 +10,12 @@ const s5 = "and";
 // Concatenate the string variables into one new string
 
 let newString = s1 + ", " + s2 + ", " + s3 + ", " + s4 + ", " + s5;
+let newStringForm = `${s1} ${s2} ${s5} ${s3} ${s4}`;
 
 // Print out the concatenated string
 
 console.log(newString);
+console.log(newStringForm)
 
 /*******************************************
     Iteration 1.2 | Camel Tail
@@ -29,7 +31,7 @@ console.log(upperCasePart1)
 
 let upperCasePart2 = part2.slice(0, -1) + part2.slice(-1).toUpperCase();
 
-console.log(upperCasePart1 + " " + upperCasePart2)
+console.log(upperCasePart1 + upperCasePart2)
 
 let phraseComplete = upperCasePart1 + upperCasePart2;
 
@@ -47,10 +49,12 @@ const billTotal = 84;
 // Calculate the tip (15% of the bill total)
 
 let calculatedTotalPercent = (84 * 15) / 100;
+let resultPercent = billTotal + calculatedTotalPercent
 
 // Print out the tipAmount
 
 console.log(calculatedTotalPercent);
+console.log(resultPercent);
 
 
 
@@ -91,7 +95,7 @@ const expression5 = !a || !b;
 console.log(expression5 + " = " + "true")
 
 const expression6 = !(a || b);
-console.log(expression5 + " = " + "true")
+console.log(expression6 + " = " + "false")
 
 const expression7 = a && a;
 console.log(expression7 + " = " + "true")
